@@ -1,45 +1,70 @@
-# Guitar Tuner
+# Getting Started with Create React App
 
-![Guitar Tuner](https://aerotwist.com/static/blog/guitar-tuner/grabs.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A sample web app that lets you tune a guitar. It uses ES6 classes (via Babel) and [Polymer 1.0](https://www.polymer-project.org/1.0/).
+## Available Scripts
 
-[See the site here](https://guitar-tuner.appspot.com/)
+In the project directory, you can run:
 
-## Running the site locally
+### `npm start`
 
-1. Download the [Google App Engine SDK for Python](https://cloud.google.com/appengine/downloads?hl=en). Grab the Launcher, and install it.
-2. `npm install -g gulp`
-3. `git clone https://github.com/GoogleChrome/guitar-tuner`
-4. `cd guitar-tuner`
-5. `npm i`
-6. `gulp`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you get an error about lib-sass, you will need to get a newer version of gulp-sass:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-throw new Error('`libsass` bindings not found. Try reinstalling `node-sass`?');
-```
+### `npm test`
 
-The error is thrown if your version of Node is newer than 0.12 or so.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Open `package.json` and change the gulp-sass version to 2.1.0 or newer, i.e. "gulp-sass": "^2.1.0"
-2. `rm -rf node_modules/`
-3. `npm i`
-4. `gulp`
+### `npm run build`
 
-Once the build has finished, you can boot the GAE Launcher and choose File -> Add Existing Application... and point it at the guitar-tuner folder.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Start the application, and visit the URL indicated by the port, i.e. [http://localhost:8080](http://localhost:8080) (N.B. you do not the admin port).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## License
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Copyright 2015 Google, Inc.
+### `npm run eject`
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to you under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-http://www.apache.org/licenses/LICENSE-2.0
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Please note: this is not a Google product
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
